@@ -1,10 +1,11 @@
 package homeWork;
 
+// 과제 4번에 continue 사용하는 코드가 누락되었습니다! 다음 과제 마감까지 수정해주세욥 ㅎㅎ
 public class week01_1 {
     public static void main(String[] args) {
         int[] scores = {85, 92, 78, 65, 55, 90, 73, 88, 47, 100};
         int total = 0;
-        int studentCount = 0;    //사용한 계산식들 모두 score로도 대체 가능!!
+        int studentCount = 0;    //사용한 계산식들 모두 score로도 대체 가능
         int max = 0;
         int min = 100;
 
