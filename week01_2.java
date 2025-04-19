@@ -3,6 +3,7 @@ package homeWork;
 import java.util.Scanner;
 
 class Student {
+    //Scanner scanner = new Scanner(System.in);
     String name;
     int age;
     String studentId;
@@ -13,9 +14,9 @@ class Student {
         this.studentId = studentId;
     }
     public Student() {
-        Scanner namescan = new Scanner(System.in);
-        System.out.print("학생 이름: ");
-        this.name = namescan.nextLine();
+        Scanner namescan = new Scanner(System.in);    // Scanner는 하나로 모두 사용 가능
+        System.out.print("학생 이름: ");              // 근데 메서드 안에서 쓰면 해당 메서드만 사용 가능하니
+        this.name = namescan.nextLine();             // 필드에 써서 모두 사용할 수 있게 하면 좋음!
 
         Scanner agescan = new Scanner(System.in);
         System.out.println("학생 나이:");
