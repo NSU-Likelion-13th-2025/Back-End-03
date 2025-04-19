@@ -4,7 +4,7 @@ public class week01_1 {
     public static void main(String[] args) {
         int[] scores = {85, 92, 78, 65, 55, 90, 73, 88, 47, 100};
         int total = 0;
-        int studentCount = 0;
+        int studentCount = 0;    //사용한 계산식들 모두 score로도 대체 가능!!
         int max = 0;
         int min = 100;
 
@@ -14,7 +14,7 @@ public class week01_1 {
             int score = scores[i];
 
             total += score;
-            studentCount++;
+            //studentCount++;    
 
             if (score > max) {
                 max = score;
@@ -43,7 +43,7 @@ public class week01_1 {
             System.out.println("학생 " + (i + 1) + ": 성적 = " + score + ", 평가 = " + grade + ", " + pass);
         }
 
-        double average = (double) total / studentCount;
+        double average = (double) total / studentCount;    // (double)total/score.length;
 
         System.out.printf("전체 성적 평균: %.2f\n", average);
         System.out.println("최고 점수: " + max);
