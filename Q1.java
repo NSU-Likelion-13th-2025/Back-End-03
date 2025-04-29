@@ -17,7 +17,7 @@ class Student {
     public void introduce() {
         System.out.println("학생 이름: " + this.name);
         System.out.println("학생 나이: " + this.age);
-        System.out.println("학생 학번: " + this.studentID);
+        System.out.println("학생 학번: " + this.studentID);    //this 생략 가능!
     }
 }
 
